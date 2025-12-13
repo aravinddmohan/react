@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function WelcomeCard() {
-  const [user, setUser] = useState("user");
+  const [user, setUser] = useState("");
   const msg = `Welcome to React ${user}`;
 
   return (
