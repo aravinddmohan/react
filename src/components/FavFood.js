@@ -1,6 +1,6 @@
 import { useState } from "react";
 export default function FavFood(){
-    const foods = ["watermelon","apple","hotdogs","sandwich","lemon"];
+    const foods = ["watermelon","apple","hotdogs","sandwich","lemon","apple"];
     const [message,setMessage] = useState("click any food");
     const handleClick =(food) => {
         setMessage(`i love ${food}`);
