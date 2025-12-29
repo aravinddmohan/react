@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function HobbyCard() {
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
-  const [isStudent, setIsStudent] = useState(true);
+  const isStudent=true;
 
   const [hobbyInput, setHobbyInput] = useState("");
   const [hobbies, setHobbies] = useState([]);
